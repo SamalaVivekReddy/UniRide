@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark">
+
+
+    <LinearLayout
+        android:id="@+id/destinationLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/dest_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="-5dp"
+
+            android:text="DESTINATIONS:"/>
+
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/logo_la"
+            android:scaleType="centerCrop"
+            android:id="@+id/LosAngeles"
+            android:padding="80dp"
+
+            />
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/logo_sf"
+            android:scaleType="centerCrop"
+            android:id="@+id/SanFrancisco"
+            android:padding="80dp"
+
+
+
+            />
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/logo_sd"
+            android:scaleType="centerCrop"
+            android:id="@+id/SanDiego"
+            android:padding="80dp"
+
+
+
+            />
+        <ImageButton
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="80dp"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/logo_lv"
+            android:scaleType="centerCrop"
+            android:id="@+id/LasVegas"
+
+
+            />
+
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

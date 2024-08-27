@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">mobshare</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="textViewDest">Destination</string>
+    <string name="chooseDest">One Way</string>
+    <string-array name="items">
+        <item>Select Type of Trip:</item>
+        <item>One Way</item>
+        <item>Round Trip</item>
+    </string-array>
+
+    <string-array name="items2">
+        <item>Select Destination:</item>
+        <item>San Diego</item>
+        <item>Los Angeles</item>
+        <item>San Francisco</item>
+        <item>Las Vegas</item>
+    </string-array>
+</resources>
