@@ -18,7 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseUser;
 
 /**
- * Created by nickkpoon on 12/2/17.
+ * Created by vivek on 12/12/23.
  */
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
